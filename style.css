@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  background: url(images/airbnb-bg.jpg)no-repeat center center fixed;
+  background-size: cover;
+}
+
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: relative;
+}
+
+.logo {
+  color: #fff;
+  width: 2em;
+  margin-left: .5em;
+  /* border: 1px solid yellow; */
+}
+
+.link-container {
+  color: #fff;
+  flex: 2;
+  /* border: 1px solid green; */
+  position: absolute;
+  right: 0;
+  margin-right: 1em;
+}
+
+.nav-links {
+  display: inline-block;
+  padding: .5em;
+  font-size: 14px;
+}
