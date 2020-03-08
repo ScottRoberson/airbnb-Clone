@@ -13,7 +13,7 @@
 
   <header>
     <nav>
-      <div class="test">
+      <div class="nav-container">
         <div class="logo">
           <svg viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false"
             style="height:2em;width:2em;display:block;fill:currentColor">
@@ -41,12 +41,19 @@
         <div class="form-container">
           <form action="submit" class="form" id="form">
             <label for="text">Where</label>
-            <input type="text" placeholder="Anywhere">
-            <label for="date">Check-In</label>
-            <input type="date" placeholder="mm/dd/yyyy">
-            <label for="text">Checkout</label>
-            <input type="date" placeholder="mm/dd/yyyy">
-            <input type="number" placeholder="Guest">
+            <input class="inputs" type="text" placeholder="Anywhere">
+            <div class="checkin-out-container">
+              <div class="checkin">
+                <label for="text">Check-In</label>
+                <input class="inputs" type="text" placeholder="mm/dd/yyyy">
+              </div>
+              <div class="checkout">
+                <label for="inputs">Checkout</label>
+                <input class="inputs" type="text" placeholder="mm/dd/yyyy">
+              </div>
+            </div>
+            <label for="text">Guests</label>
+            <input class="inputs" type="number" placeholder="Guests">
             <button class="search-btn">Search</button>
           </form>
         </div>
