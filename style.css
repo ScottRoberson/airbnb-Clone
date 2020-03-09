@@ -10,6 +10,7 @@ body {
   font-family: 'Varela Round', sans-serif;
   background: url(images/airbnb-bg.jpg)no-repeat center center fixed;
   background-size: cover;
+  height: auto;
 }
 
 .nav-container {
@@ -52,10 +53,10 @@ body {
 .booking-search {
   background: #ffff;
   width: 440px;
-  height: 450px;
+  height: 425px;
   padding: 1.5em;
   margin-left: 4em;
-  margin-top: 2em;
+  margin-top: .5em;
   border-radius: 4px;
 }
 
@@ -78,10 +79,8 @@ body {
   padding: 10px;
   border-radius: 2px;
   margin: .5em 0 2em 0;
-  /* margin-bottom: 10px; */
   border: 1px solid rgb(235, 235, 235);
   color: rgb(72, 72, 72);
-  /* margin-top: .5em; */
 }
 
 
@@ -102,14 +101,31 @@ body {
   font-weight: bold;
 }
 
-
-
-
 .checkin-out-container {
   display: flex;
 }
 
 .checkin-out-container>div {
   width: 50%;
+}
 
+.announcement {
+  background: #fff;
+  width: 440px;
+  height: 160px;
+  margin-left: 4em;
+  margin-top: 1em;
+  border-top: 8px solid #FFAF0F;
+  padding: 24px;
+  border-radius: 4px;
+
+}
+
+.announcement>p {
+  margin-bottom: 5px;
+}
+
+.announcement a {
+  color: #000000;
+  font-weight: bold;
 }
