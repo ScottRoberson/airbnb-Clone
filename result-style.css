@@ -55,3 +55,87 @@ body {
   border-radius: 30px;
   margin: 5px;
 }
+
+.room-card {
+  width: 240px;
+  height: 275px;
+}
+
+.card-image {
+  width: 240px;
+  height: 160px;
+  border-radius: 5px;
+}
+
+.tagline {
+  display: flex;
+  align-items: center;
+}
+
+.tagline p {
+  margin-right: 15px;
+  font-size: 12px;
+  border: .5px solid #000;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.tagline small {
+  color: #9f9f9f;
+  margin-right: 15px;
+
+}
+
+.rating {
+  margin-left: 45px;
+}
+
+.rating span {
+  font-size: 12px;
+}
+
+
+/* .tagline {
+  display: flex;
+  position: relative;
+}
+
+.tagline p {
+  border: .5px solid #000;
+  border-radius: 5px;
+  padding: 4px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin: 10px 0px 0px 0px;
+}
+
+.tagline small {
+  align-self: center;
+  margin: 13px 0px 0px 15px;
+  color: #9f9f9f;
+
+} */
+
+/* .rating-box {
+  position: absolute;
+  width: 60px;
+  top: 16px;
+  right: 0;
+} */
+
+.rating-box span {
+  color: #9f9f9f;
+  font-size: 14px;
+}
+
+.room-name {
+  margin: 10px 0px;
+}
+
+.price {
+  margin: 5px 0px 10px 0px;
+}
+
+/* .pricing>p {
+  margin: 0;
+} */
