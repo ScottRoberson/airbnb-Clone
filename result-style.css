@@ -56,9 +56,19 @@ body {
   margin: 5px;
 }
 
+.results-main {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  height: auto;
+  margin-top: 40px;
+  padding: 20px;
+}
+
 .room-card {
   width: 240px;
   height: 275px;
+  /* border: 1px solid red; */
 }
 
 .card-image {
