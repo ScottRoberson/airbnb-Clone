@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  color: #008489;
+  width: 2em;
+  margin-left: .5em;
+
+}
+
+.link-container {
+  color: #000;
+  margin-left: 16px;
+  padding: 0;
+  position: relative;
+}
+
+.income-potential {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  width: 375px;
+  padding: 10px 20px 10px 0px;
+}
+
+.income-potential p {
+  margin-right: 10px;
+  color: #484848;
+
+}
+
+.btn {
+  background: #ff5a5f;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.header-btn {
+  font-size: 14px;
+  padding: 6px 15px;
+  background: #db3742;
+  border: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
+.income-potential strong {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.nav-links {
+  display: inline-block;
+  padding: 1.5em .5em;
+  font-size: 14px;
+  border-bottom: 2px transparent #fff;
+
+}
+
+.nav-links:hover {
+  border-bottom: 2px solid #000000;
+  cursor: pointer;
+}
+
+.links-list {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.links-list li {
+  list-style-type: none;
+  display: inline-block;
+  border: 1px solid #b0b0b0;
+  padding: 10px 15px;
+  font-size: 12px;
+  border-radius: 30px;
+  margin: 5px;
+}
+
+/* main landing area */
+
+.landing-main {
+  background-image: url('https://a0.muscache.com/4ea/air/v2/pictures/9d08d356-59b9-4ac4-9f41-5b9c13c2b211.jpg?t=r:w1440-h960-sfit,e:fwebp-c75&quot');
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
+  background-size: cover;
+}
+
+
+
+.signup-container {
+  background-color: #fff;
+  height: 440px;
+  width: 460px;
+  margin: 70px 70px 0 0;
+  padding: 32px;
+}
+
+.signup-headline {
+  font-size: 40px;
+}
+
+.signup-host-form {
+  /* border: 1px solid red; */
+  height: 280px;
+}
+
+.signup-host-form label {
+  display: block;
+}
+
+.signup-host-form>input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.signup-host-form>input::placeholder {
+  font-size: 16px;
+  color: #ebebeb;
+}
+
+.custom-select select {
+  padding: 15px;
+  outline: none;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+}
