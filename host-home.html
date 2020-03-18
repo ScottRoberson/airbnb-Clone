@@ -39,20 +39,20 @@
         <h1 class="signup-headline">Earn money as an Airbnb host</h1>
         <form action="" class="signup-host-form" id="signup-host-form">
           <label for="input">Find out what you can earn</label>
-          <input type="text" placeholder="Enter your City">
+          <input type="text" placeholder="Location">
           <div class="custom-select">
             <select name="place" id="rental-type">
-              <option value="Entire Place">Entire Place</option>
+              <option class="selected" value="Entire Place" selected>Entire Place</option>
               <option value="Private Room">Private Room</option>
               <option value="Shared Room">Shared Room</option>
             </select>
+            <select name="guests" id="guests">
+              <option value="1 guest">1 guest</option>
+              <option value="2 guests">2 guests</option>
+              <option value="3 guests">3 guests</option>
+              <option class="selected" value="4 guests" selected>4 guests</option>
+            </select>
           </div>
-          <select name="guests" id="guests">
-            <option value="1 guest">1 guest</option>
-            <option value="2 guests">2 guests</option>
-            <option value="3 guests">3 guests</option>
-            <option value="4 guests" selected>4 guests</option>
-          </select>
           <div class="sign-up-form-income">
             <p>Monthly potential<strong>$1,030</strong></p>
             <button class="btn signup-btn">Get Started</button>
